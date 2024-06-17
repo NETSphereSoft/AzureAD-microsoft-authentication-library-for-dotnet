@@ -31,7 +31,7 @@ namespace Microsoft.Identity.Client.Extensibility
         /// parameters that MSAL.NET will extract and redeem.
         /// </returns>
         /// <remarks>
-        /// The <paramref name="authorizationUri">authorizationUri</paramref>"/> is crafted to
+        /// The <paramref name="authorizationUri">authorizationUri</paramref> is crafted to
         /// leverage PKCE in order to protect the token from a man in the middle attack.
         /// Only MSAL.NET can redeem the code.
         ///
